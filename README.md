@@ -11,7 +11,7 @@ Using Bootstrap in your project
   
   Install: `npm install -g harp`
 
-  Check version: `harp version`
+  Check version: `harp --version`
 
 - Surge - to deploy project: `npm install -g surge`
   
