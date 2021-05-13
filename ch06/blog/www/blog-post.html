@@ -54,11 +54,13 @@
 </nav>
  <div class="container">
   <div class="row mt-5">
-    <ol class="breadcrumb my-4">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Blog</a></li>
-      <li class="active">Post Title</li>
-    </ol>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb my-4">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="index.html">Blog</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Post Title</li>
+      </ol>
+    </nav>
   </div>
   <!-- page title //-->
   <div class="row mb-4">
@@ -109,9 +111,9 @@
     </div>
   </div>
   <!-- page body //-->
-  <div class="row mb-4">
+  <div class="row">
     <div class="col-md-8">
-      <div class="card">
+      <div class="card mb-4">
         <div class="card-body">
           <p>
             <small>Posted by <a href="#">Admin</a> on January 1, 2016 in <a href="#">Category</a></small>
@@ -194,7 +196,7 @@
     </div>
 
     <!-- Sidebar Widgets Column -->
-    <div class="col-md-4 hidden-md-down">
+    <div class="col-md-4">
       <div class="card mb-4">
         <h5 class="card-header">Recent Posts</h5>
         <div class="row">

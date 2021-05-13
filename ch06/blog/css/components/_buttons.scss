@@ -10,7 +10,7 @@
   background-color: $grey;
   border-color: $grey;
 
-  @include border-radius(10px);
+  @include border-radius(20px);
 }
 
 .btn-primary {
@@ -25,7 +25,7 @@
 }
 
 .btn-secondary {
-  background-color: $off-white;
+  background-color: $green;
   border-color: $off-white;
 }
 
