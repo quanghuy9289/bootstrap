@@ -1,0 +1,53 @@
+Session 20 - Playing with components
+
+1. Button component
+- Create button: <button>, class .btn, btn-primary, ...
+- Create outlined button: .btn-line-primary, ...
+- Button groups:
+    + Create button group: .btn-group, role: group
+    + Vertical button group: .btn-group-vertical
+- Button dropdown:
+    + dropdown: .dropdown-toggle, data-toggle: dropdown, .dropdown-menu, .dropdown-item
+    + dropup: .dropup
+
+2. Form
+- Setting up form: <form>, .form-group, .form-control
+- Select
+- Textarea
+- File input form field: .form-group, .form-control-file on <input>
+- Radio button, checkbox button:
+    + checkbox: .form-check, .form-check-input, .form-check-label
+    + radio: .form-check, .form-check-input, .form-check-label
+- Inline form: 
+    + Create inline form: .form-inline
+    + Hide labels in an inline form: .sr-only
+    + Checkbox, radio
+- Change size of input:
+    + .form-control-lg, .form-control-sm
+- Layout controls on form:
+    + .form-row, .col-xx-number
+- Add validation for input:
+    + Add validation attribute into input
+    + Using javascript add class .was-validated into form
+
+3. Jumbotron
+- Add class: .jumbotron, .jumbotron-fluid
+
+4. Card
+- Add parent element a class: .card
+- Add card components: .card-header, .card-body, .card-footer, .card-img-top
+- Card body: .card-title, .card-subtitle, .card-text
+- Alignment card text: .text-center, .text-right, ...
+
+
+5. Nav - navbar
+- Nav
+    + Class: .nav on <ul> or <nav>
+    + Tab navigation: .nav-tabs
+    + Pill navigation: .nav-pulls
+
+- Navbar
+    + Class: .navbar, .nav-branch, .navbar-nav
+    + Change color navbar: .navbar-dark, .bg-dark
+    + Responsive navbar: add button .navbar-toggle, data-toggle: collase, data-target: element_Id want to show/collapse
+    + Multi-tier menu 

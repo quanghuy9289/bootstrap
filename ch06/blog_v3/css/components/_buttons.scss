@@ -1,0 +1,7 @@
+.btn-primary {
+  background-color: $green;
+}
+
+.btn {
+  @include border-radius(20px);
+}

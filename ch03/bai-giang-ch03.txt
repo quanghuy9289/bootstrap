@@ -1,0 +1,35 @@
+Session 19 - Working with content
+
+1. Reboot defaults and basic
+- Measurement: rem
+- box-sizing: border-box => width/height not change layout
+- Font size default: 16px
+- Background color: white
+- Heading: margin-top: 0; margin-bottom: 0.5rem;
+- Paragraph: margin-bottom: 1rem;
+- List: margin-top: 0; margin-bottom: 1rem;
+- Table
+- Form
+
+2. Typography
+- Heading:
+    + html element: h1 => h6
+    + heading classes: .h1 => .h6
+    + display heading: .display-1 => .display-4
+
+- List:
+    + Classes: .list-group, .list-group-item, .active, .disabled, contextual classes
+
+3. Images
+- Responsive: add class .img-fluid
+- Image shapes: using shaping classes
+- Alignment images
+
+4. Table
+- Basic table: .table
+- Inverting table: .table-dark, .table-light, .thead-dark
+- Adding striped row: .table-striped
+- Hover state: .table-hover
+- Color-coating table rows
+- Table responsive: .table-responsive
+

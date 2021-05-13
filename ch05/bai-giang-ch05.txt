@@ -1,0 +1,44 @@
+Chapter 5 - Extending bootstrap with JavaScript Plugin
+
+1. Modal dialog
+- Component to active modal: 
+    + <a>, <button>
+    + data-toggle="modal"
+    + data-target="#modalId"
+- Modal component: 
+    + .modal
+    + id="modalId"
+    + data-backdrop="static" (option)
+    + data-keyboard="false" (option)
+
+2. Tooltips
+    - Need to active tooltip with javascript
+    - Component to active tooltip:
+        + <a>, <button>
+        + data-toggle="tooltip"
+        + title="any text"
+        + data-placement="side"
+
+3. Popover
+    - Component to active popover
+        + data-toggle="popover"
+        + data-placement="side"
+        + title="Popover title"
+        + data-content="popover content"
+
+4. Collapse
+    - Component(s) to active a collapse
+        + data-toggle="collapse"
+        + data-target="#collapseComponentId"
+    - Collapse component: .collapse
+
+5. Carousel
+    - Create component Carousel
+        + class: .carousel
+    - Create component carousel inner
+        + Contain carousel item
+    - Create carouse indicator: .carousel-indicators
+    - Create carousel control: prev, next
+    - Timing: data-interval="1000" (milisecond)
+
+

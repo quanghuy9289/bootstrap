@@ -1,0 +1,16 @@
+Chapter 06 - Throwing in Some SASS
+
+1. Basic of SASS
+- CSS preprocessor
+
+2. Add SASS into blog project
+- Setup tools : npm, harp.js
+- Using *.scss files
+- Using variables
+- Using mixins
+- Using operators: calculate width, height, ...
+
+
+3. Working with SASS
+Practice
+

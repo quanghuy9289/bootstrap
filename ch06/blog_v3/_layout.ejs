@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title><%- pageTitle %> | <%- siteTitle %></title>
+
+    <!-- Font Awesome CSS -->
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  </head>
+  <body>
+    <%- partial("partial/_header") %>
+
+    <!-- Inject content of pages here -->
+    <%- yield %>
+    <!-- end content -->
+
+    <%- partial("partial/_footer") %>
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.slim.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $("[data-toggle=tooltip]").tooltip();
+      $("[data-toggle=popover]").popover();
+    </script>
+  </body>
+</html>
